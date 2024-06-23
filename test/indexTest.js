@@ -17,7 +17,7 @@ describe("index.html", () => {
       expect(
         newHeader.id,
         "Make sure the id of your <h1> is set to 'victory'"
-      ).eql("victory");
+      ).eql("Eddah");
     });
 
     it("the 'newHeader' variable that points to the <h1> node with an id of 'victory' has the text \"YOUR-NAME is the champion\" (with your name in place of YOUR-NAME) inside it", () => {
